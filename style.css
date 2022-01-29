@@ -7,12 +7,12 @@
 
 #hour {
     position: absolute;
-    /* z-index: 2 */
+    z-index: 2
 }
 
 #minute {
     position: absolute;
-    /* z-index: 3 */
+    z-index: 3
 }
 
 #second {
@@ -22,3 +22,27 @@
 
 .rotate {
 }
+
+
+
+ /* INSTRUCTORS ANSWER
+#clock {
+    position: relative;
+}
+
+#clock > img {
+    position: absolute;
+}
+
+#hour {
+    smaller numbers are in the back
+    z-index: 0;
+}
+
+#minute {
+    z-index: 10;
+}
+
+#second {
+    z-index: 100;
+} */
